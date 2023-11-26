@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival du fromage de Moisie</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="pictures/favicon.png" type="image/x-icon">
+    <script src="js/countdown.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="https://kit.fontawesome.com/6a27157276.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-top pc-nav-menu">
+            <img class="logo" src="/pictures/logo_whiteVersion.svg">
+            <nav>
+                <ul>
+                    <li><a href="#infos">Évènement</a></li>
+                    <li><a href="#program">Programmation</a></li>
+                    <li><a href="#tickets">Billetterie</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-top mobile-nav-menu">
+            <nav>
+                <input class="checkbox  mobile-nav" type="checkbox" name="" id="" />
+                <div class="hamburger-lines mobile-nav">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <div class="menu-items">
+                    <ul>
+                        <li><a href="#infos">Évènement</a></li>
+                        <li><a href="#program">Programmation</a></li>
+                        <li><a href="#tickets">Billetterie</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div id="container-countdown">
+            <h1 id="headline" class="text-center"></h1>
+            <div id="countdown">
+                <ul>
+                    <li><span id="days" class="text-center"></span>days</li>
+                    <li><span id="hours" class="text-center"></span>Hours</li>
+                    <li><span id="minutes" class="text-center"></span>Minutes</li>
+                    <li><span id="seconds" class="text-center"></span>Seconds</li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-bottom"></div>
+    </header>
+
+    <main>
+        <section class="infos" id="infos">
+            <h2 class="section-title">Evenement</h2>
+            <div class="container-info">
+                <div class="slider infos-child">
+                    <ul class="slider-list" id="slider-list-1">
+                        <li class="slider-list-item">
+                            <img alt="photo du festival" src="pictures/degustation-fromage.webp" />
+                        </li>
+                        <li class="slider-list-item">
+                            <img alt="photo du festival" src="pictures/festival-activites-enfants.webp" />
+                        </li>
+                        <li class="slider-list-item">
+                            <img alt="photo du festival" src="pictures/festival-du-fromage-2021.webp" />
+                        </li>
+                        <li class="slider-list-item">
+                            <img alt="photo du festival" src="pictures/festival-foule.webp" />
+                        </li>
+                        <li class="slider-list-item">
+                            <img alt="photo du festival" src="pictures/festival-music.webp" />
+                        </li>
+                        <li class="slider-list-item">
+                            <img alt="photo du festival" src="pictures/festival-scene.webp" />
+                        </li>
+                        <li class="slider-list-item">
+                            <img alt="photo du festival" src="pictures/festival-stand.webp" />
+                        </li>
+                        <li class="slider-list-item">
+                            <img alt="photo du festival" src="pictures/festival-zone-activites.webp" />
+                        </li>
+                        <li class="slider-list-item">
+                            <img alt="photo du festival" src="pictures/fondue_degustation.webp" />
+                        </li>
+                        <li class="slider-list-item">
+                            <img alt="photo du festival" src="pictures/illustration-de-fromage.webp" />
+                        </li>
+                        <li class="slider-list-item">
+                            <img alt="photo du festival" src="pictures/zone-de-concert.webp" />
+                        </li>
+                    </ul>
+                    <button class="slider-prev">
+                        <img alt="aller à la photo précédente" src="pictures/prev-btn.svg" />
+                    </button>
+                    <button class="slider-next">
+                        <img alt="aller à la photo suivante" src="pictures/next-btn.svg" />
+                    </button>
+                    <div class="slider-dots" data-target="slider-list-1">
+                        <button class="slider-dots-item active" type="button" data-slide-to="0"></button>
+                        <button class="slider-dots-item" type="button" data-slide-to="1"></button>
+                        <button class="slider-dots-item" type="button" data-slide-to="2"></button>
+                        <button class="slider-dots-item" type="button" data-slide-to="3"></button>
+                        <button class="slider-dots-item" type="button" data-slide-to="4"></button>
+                        <button class="slider-dots-item" type="button" data-slide-to="5"></button>
+                        <button class="slider-dots-item" type="button" data-slide-to="6"></button>
+                        <button class="slider-dots-item" type="button" data-slide-to="7"></button>
+                        <button class="slider-dots-item" type="button" data-slide-to="8"></button>
+                        <button class="slider-dots-item" type="button" data-slide-to="9"></button>
+                        <button class="slider-dots-item" type="button" data-slide-to="10"></button>
+                    </div>
+                </div>
+                <div class="infos-child">
+                    <h3 class="info-title">Bienvenue au Festival du Fromage de Moisie !</h3>
+                    <p>Plongez dans l'univers gourmand du fromage dans notre charmante ville de Moisie, où chaque année,
+                        nous célébrons la passion pour le fromage dans toute sa splendeur. Le <span>Festival du Fromage
+                            de
+                            Moisie</span> est l'événement phare de notre communauté, réunissant amateurs de fromage,
+                        artisans,
+                        familles et amis pour une expérience inoubliable.</p>
+                    <p>Ce festival est une ode au fromage sous toutes ses formes, avec une multitude d'activités et de
+                        délices à découvrir.</p>
+                </div>
+            </div>
+        </section>
+        <section class="featured" id="featured">
+            <div class="container-featured">
+                <div class="featured-infos infos-child">
+                    <h3 class="info-title text-light">Bleu Jeans Bleu sur les devants de la scene</h3>
+                    <p class="text-light">Ne manquez pas l'apothéose musicale du Festival du Fromage de Moisie ! Nous sommes ravis de vous
+                        présenter la vedette de cette édition : <span>Bleu Jeans Bleu</span>. Ce groupe québécois
+                        emblématique de musique indie pop-rock vous
+                        régalera de leur musique entraînante et de leur énergie contagieuse.</p>
+                    <p class="text-light">Ils clotureront cette <span>21ème édition</span> du festival le <span>Dimanche 24 août à
+                            18h</span> sur la scène principale. C'est le moment de danser, de chanter et de célébrer la
+                        passion pour le fromage et la musique !</p>
+                </div>
+                <div class="infos-child video-featured">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Lf8IoknoV-4?si=QG-vh3k2G6_BPqbh"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="program" id="program">
+            <h2 class="section-title">Programmation</h2>
+            <div class="all-programs">
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="/pictures/Programme/alain-francois.jpg" alt="Photographie d'Alain-François">
+                        <div class="dates">
+                            <h3>Samedi</h3>
+                            <h3>14h</h3>
+                        </div>
+                        <div class="description">
+                            <h3>Alain-François</h3>
+                            <p> Plongez dans le monde envoûtant du violon avec Alain-François, une performance musicale
+                                à ne pas manquer ! </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/pictures/Programme/concours-cheese.jpg"
+                            alt="Photographie du concours de fromage 2021 du festival de Moisie">
+                        <div class="dates">
+                            <h3>Samedi</h3>
+                            <h3>15h30</h3>
+                        </div>
+                        <div class="description">
+                            <h3>Concours national "MyCheese"</h3>
+                            <p> Découvrez la compétition internationale du fromage : goûtez, jugez, et célébrez la
+                                diversité des saveurs !</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/pictures/Programme/Brigitte-Boisjoli.jpg" alt="Photographie de Brigite Boisjoli">
+                        <div class="dates">
+                            <h3>Samedi</h3>
+                            <h3>17h</h3>
+                        </div>
+                        <div class="description">
+                            <h3>Brigite Boisjoli</h3>
+                            <p> Vibrez au rythme de la musique avec l'artiste exceptionnelle Brigitte Boisjoli ! </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/pictures/Programme/atelier_fromagerie.jpg"
+                            alt="Photographie d'un atelier de fabrication de fromage">
+                        <div class="dates">
+                            <h3>Dimanche</h3>
+                            <h3>10h30</h3>
+                        </div>
+                        <div class="description">
+                            <h3>Atelier fabrication de fromage</h3>
+                            <p> Assistez à un atelier de fabrication de fromage captivant, où vous pourrez créer et
+                                savourer des délices fromagers uniques. </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/pictures/Programme/histoire-fromage.jpg"
+                            alt="Illustration ancienne de fabrication de fromage">
+                        <div class="dates">
+                            <h3>Dimanche</h3>
+                            <h3>14h</h3>
+                        </div>
+                        <div class="description">
+                            <h3>A la découverte de l'histoire du fromage</h3>
+                            <p> Voyagez dans le temps lors de notre atelier historique sur l'évolution du fromage à
+                                travers les siècles. Découvrez les récits fascinants qui ont façonné cette délicieuse
+                                tradition. </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/pictures/Programme/Bleu-jeans-bleu-sur-scene.jpeg"
+                            alt="Photographie du groupe Bleu Jeans Bleu">
+                        <div class="dates">
+                            <h3>Dimanche</h3>
+                            <h3>18h</h3>
+                        </div>
+                        <div class="description">
+                            <h3>Concert de cloture de festival</h3>
+                            <p> Pour cloturer le festival, le groupe québécois pop-rock "Bleu Jeans Bleu" vous fera
+                                danser au rythme de leurs chansons entrainantes. Une expérience musicale inoubliable
+                                vous attend ! </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tickets" id="tickets">
+            <h2 class="section-title text-light">Billeterie</h2>
+            <div class="container-tickets">
+                <p class="text-light text-center">Le festival ouvre ses portes de 10h à 18h le samedi, et de 10h à 20h
+                    le dimanche. Il existe 3
+                    tarifications différentes : </p>
+                <div class="all-tickets-cards">
+                    <div class="tickets-card">
+                        <div class="tickets-top-card">
+                            <h3>Billet Samedi</h3>
+                        </div>
+                        <div class="tickets-middle-card">
+                            <h3 class="ticket-price">18$</h3>
+                            <ul>
+                                <li>Entrée au festival à l'heure classique</li>
+                                <li>Billet valable le samedi uniquement</li>
+                                <li>Toute sortie du festival est définitive</li>
+                            </ul>
+                        </div>
+                        <a class="btn-buy text-center" href="">
+                            Acheter ce billet
+                        </a>
+                    </div>
+                    <div class="tickets-card">
+                        <div class="tickets-top-card">
+                            <h3>Billet Dimanche</h3>
+                        </div>
+                        <div class="tickets-middle-card">
+                            <h3 class="ticket-price">22$</h3>
+                            <ul>
+                                <li>Entrée au festival à l'heure classique</li>
+                                <li>Billet valable le dimanche uniquement</li>
+                                <li>Toute sortie du festival est définitive</li>
+                            </ul>
+                        </div>
+                        <a class="btn-buy text-center" href="">
+                            Acheter ce billet
+                        </a>
+                    </div>
+                    <div class="tickets-card">
+                        <div class="tickets-top-card">
+                            <h3>Billet WeekEnd</h3>
+                        </div>
+                        <div class="tickets-middle-card">
+                            <h3 class="ticket-price">30$</h3>
+                            <ul>
+                                <li>Entrée au festival dès 9h</li>
+                                <li>Billet valable le samedi et le dimanche</li>
+                                <li>Entrées et sorties illimitées</li>
+                            </ul>
+                        </div>
+                        <a class="btn-buy text-center" href="">
+                            Acheter ce billet
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="contact" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="container-contact">
+                <iframe class="contact-bloc"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14214.97207144933!2d-66.06506801702957!3d50.26326079889955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4c8e28c0bca21973%3A0x3c96dda6f3ca9e2e!2sCamping%20ZEC%20de%20la%20Rivi%C3%A8re%20Moisie!5e0!3m2!1sfr!2sca!4v1693263290196!5m2!1sfr!2sca"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <form action="" method="get" class="contact-bloc">
+                    <div class="form-colonne">
+                        <div class="input">
+                            <input type="text" name="prenom" id="prenom" required="required" minlength="1"
+                                maxlength="25" title="Indiquez votre prénom" />
+                            <div class="underline"></div>
+                            <label for="prenom">Prénom</label>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="nom" id="nom" required="required" minlength="1" maxlength="25"
+                                title="Indiquez votre nom" />
+                            <div class="underline"></div>
+                            <label for="nom">Nom</label>
+                        </div>
+                    </div>
+                    <div class="form-colonne">
+                        <div class="input">
+                            <input type="text" name="email" id="email" required="required"
+                                title="Indiquez votre adresse mail" />
+                            <div class="underline"></div>
+                            <label for="email">Adresse mail</label>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="objet" id="objet" required="required" maxlength="30"
+                                title="Indiquez l'objet de votre message" />
+                            <div class="underline"></div>
+                            <label for="objet">Objet</label>
+                        </div>
+                    </div>
+                    <div class="form-colonne">
+                        <div class="input  commentaire">
+                            <textarea name="commentaire" id="commentaire" cols="30" rows="10" required="required"
+                                title="Ecrivez votre message"></textarea>
+                            <div class="underline"></div>
+                            <label for="commentaire">Votre message</label>
+                        </div>
+                    </div>
+                    <div class="form-colonne submit-button">
+                        <div class="input">
+                            <div class="inner">
+                                <input type="submit" value="envoyer">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container-footer">
+            <div class="infos-footer footer-bloc">
+                <img class="logo" src="/pictures/logo_whiteVersion.svg">
+                <p class="text-light">Entre Fromages, Musiques et Traditions, le festival de Moisie est l'événement
+                    gourmand et amusant à découvrir cet automne.</p>
+            </div>
+            <div class="contact-footer footer-bloc">
+                <div class="coordonnes">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <p class="text-light">10 Rue Mercier, Moisie, QC G0G 2B0</p>
+                </div>
+                <div class="coordonnes">
+                    <i class="fa-solid fa-phone"></i>
+                    <p class="text-light">XXX XX-XXXX</p>
+                </div>
+                <div class="coordonnes">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p class="text-light">info@festivaldemoisie.ca</p>
+                </div>
+            </div>
+            <div class="social-media footer-bloc">
+                <h3 class="text-light">Suivez nous</h3>
+                <ul class="social-icons">
+                    <li><a title="Suivez nous sur Instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a title="Suivez nous sur X (anciennement Twitter)" href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li><a title="Suivez nous sur linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <section class="partners">
+            <h2 class="title-footer text-light">Nos partenaires</h2>
+            <div class="logo-slider">
+                <div class="logo-slide-track">
+                    <div class="slide">
+                        <img src="/pictures/logos_partenaires/agropur.png" alt="Logo d'agropur">
+                    </div>
+                    <div class="slide">
+                        <img src="/pictures/logos_partenaires/assemblee_nationale_quebec.png"
+                            alt="Logo de l'assemblée nationale du Québec">
+                    </div>
+                    <div class="slide">
+                        <img src="/pictures/logos_partenaires/boralex.png" alt="Logo Boralex">
+                    </div>
+                    <div class="slide">
+                        <img src="/pictures/logos_partenaires/budweiser.jpg" alt="Logo de Budweiser">
+                    </div>
+                    <div class="slide">
+                        <img src="/pictures/logos_partenaires/desjardins.png" alt="Logo desJardins">
+                    </div>
+                    <div class="slide">
+                        <img src="/pictures/logos_partenaires/expression_imprimeur.jpg"
+                            alt="Logo d'expression imprimeur">
+                    </div>
+                    <div class="slide">
+                        <img src="/pictures/logos_partenaires/familiprix.png" alt="Logo de familiprix">
+                    </div>
+                    <div class="slide">
+                        <img src="/pictures/logos_partenaires/hyundai.png" alt="Logo Hyundai">
+                    </div>
+                    <div class="slide">
+                        <img src="/pictures/logos_partenaires/lettrage_lafontaine.png"centercontainer-featured
+                            alt="Logo de Lettrage laFontaine">
+                    </div>
+                    <div class="slide">
+                        <img src="/pictures/logos_partenaires/musication.png" alt="Logo de musication">
+                    </div>
+                    <div class="slide">
+                        <img src="/pictures/logos_partenaires/numeriq.png" alt="Logo de numérique">
+                    </div>
+                    <div class="slide">
+                        <img src="/pictures/logos_partenaires/rouge.png" alt="Logo de rouge">
+                    </div>
+                    <div class="slide">
+                        <img src="/pictures/logos_partenaires/sleeman.jpg" alt="Logo Sleeman">
+                    </div>
+                    <div class="slide">
+                        <img src="/pictures/logos_partenaires/snc_lavalin.png" alt="Logo de Snc lavalin">
+                    </div>
+                    <div class="slide">
+                        <img src="/pictures/logos_partenaires/subway.png" alt="Logo Subway">
+                    </div>
+                    <div class="slide">
+                        <img src="/pictures/logos_partenaires/tourisme_quebec.png" alt="Logo de tourisme Québec">
+                    </div>
+
+                </div>
+            </div>
+            <p class="text-light text-center">Festival du fromage de Moisie | © Copyright 2023 - Tous droits réservés</p>
+        </section>
+    </footer>
+</body>
+
+</html>
